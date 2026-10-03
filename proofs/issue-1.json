@@ -1,0 +1,54 @@
+{
+  "network": "studionet",
+  "chain_id": 61999,
+  "contract_address": "0x84790519a1E35285A95B43FfD26Ffe77dBF63cf9",
+  "source_sha256": "71c42b2428f517c9c2c276bcb18785587a313601fae89c07bd903ebb579ae71a",
+  "source": {
+    "file": "001-blue-suspension.md",
+    "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/route-window/1572d8bb0e69cec849c38ab3980b4f3fe5eca707/bulletins/001-blue-suspension.md",
+    "sha256": "4439dbfb839ad0abbdacda6df78e37c4a58ca9ce0bd433dd977a513a9b367e1e"
+  },
+  "transactions": [
+    {
+      "action": "deploy",
+      "hash": "0x3acf41bc9ffa6907f673474e273a9b14e2671ebb5fd05c1897ec134cbe0acbe3"
+    },
+    {
+      "action": "ingest_bulletin",
+      "hash": "0x7f6372c3efa200935ccc23980c165452f76bf4d3a33d71e6fee912ff9882424a"
+    }
+  ],
+  "schedule": {
+    "bulletin_count": 1,
+    "closed_intervals": {
+      "Blue": [
+        [
+          8,
+          12
+        ]
+      ],
+      "Red": []
+    },
+    "horizon_hours": 48,
+    "origin_utc": "2026-10-03T00:00:00Z",
+    "routes": [
+      "Blue",
+      "Red"
+    ]
+  },
+  "bulletin": {
+    "issue": 1,
+    "report": {
+      "action": "CLOSE",
+      "end_hour": 12,
+      "quote": "On 3 October 2026, regular Blue Line trains will not operate from 08:00 UTC until 12:00 UTC. Replacement buses are planned, but regular Blue Line rail service is suspended throughout that window.",
+      "routes": [
+        "Blue"
+      ],
+      "start_hour": 8
+    },
+    "schedule_sha256": "239ccd698452ea3a9fb133084ae82898fdb672a7d9d4d82df07bde099234c9ff",
+    "sha256": "4439dbfb839ad0abbdacda6df78e37c4a58ca9ce0bd433dd977a513a9b367e1e",
+    "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/route-window/1572d8bb0e69cec849c38ab3980b4f3fe5eca707/bulletins/001-blue-suspension.md"
+  }
+}

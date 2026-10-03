@@ -1,0 +1,58 @@
+{
+  "network": "studionet",
+  "chain_id": 61999,
+  "contract_address": "0x84790519a1E35285A95B43FfD26Ffe77dBF63cf9",
+  "source_sha256": "71c42b2428f517c9c2c276bcb18785587a313601fae89c07bd903ebb579ae71a",
+  "source": {
+    "file": "002-blue-restoration.md",
+    "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/route-window/1572d8bb0e69cec849c38ab3980b4f3fe5eca707/bulletins/002-blue-restoration.md",
+    "sha256": "744cfff176414c90d438c541a0c43324abda845cf28e6bc3e9c51b61c532e464"
+  },
+  "transactions": [
+    {
+      "action": "deploy",
+      "hash": "0x3acf41bc9ffa6907f673474e273a9b14e2671ebb5fd05c1897ec134cbe0acbe3"
+    },
+    {
+      "action": "ingest_bulletin",
+      "hash": "0xa80ae654016ac30498def65ceec97746634653357a2fb733509e437a00ee8f48"
+    }
+  ],
+  "schedule": {
+    "bulletin_count": 2,
+    "closed_intervals": {
+      "Blue": [
+        [
+          8,
+          10
+        ],
+        [
+          11,
+          12
+        ]
+      ],
+      "Red": []
+    },
+    "horizon_hours": 48,
+    "origin_utc": "2026-10-03T00:00:00Z",
+    "routes": [
+      "Blue",
+      "Red"
+    ]
+  },
+  "bulletin": {
+    "issue": 2,
+    "report": {
+      "action": "RESTORE",
+      "end_hour": 11,
+      "quote": "On 3 October 2026, normal Blue Line train service resumes from 10:00 UTC until 11:00 UTC. The previously announced Blue Line suspension remains in force before 10:00 UTC and after 11:00 UTC until noon.",
+      "routes": [
+        "Blue"
+      ],
+      "start_hour": 10
+    },
+    "schedule_sha256": "58ead9dd190f6b24e3d1a3def65e7a586ca5cd3f417bd4a9cd1d9bdbf74e23d0",
+    "sha256": "744cfff176414c90d438c541a0c43324abda845cf28e6bc3e9c51b61c532e464",
+    "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/route-window/1572d8bb0e69cec849c38ab3980b4f3fe5eca707/bulletins/002-blue-restoration.md"
+  }
+}

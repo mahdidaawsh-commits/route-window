@@ -1,0 +1,189 @@
+{
+  "hash": "0x7d7ea88d8355702d7839c0349b26bd15542f86c74c0c018176736db491781135",
+  "from_address": "0xa480D675647347f0C7745272263a612b8Ce9C120",
+  "to_address": "0x84790519a1E35285A95B43FfD26Ffe77dBF63cf9",
+  "data": {
+    "calldata": {
+      "readable": "{\"args\":[\"https://raw.githubusercontent.com/mahdidaawsh-commits/route-window/1572d8bb0e69cec849c38ab3980b4f3fe5eca707/bulletins/003-red-advisory.md\",\"50ba051efa520354b1beacf2a4d8898cd517843dc731d1f07e408bf8e5cbc1ac\",]\"method\":\"ingest_bulletin\"}"
+    }
+  },
+  "status": 7,
+  "result": 6,
+  "consensus_data": {
+    "votes": {
+      "0x36728d2a123aB444E603EE5b2ad17d18Bb193557": "idle",
+      "0x4404Fb70d490c935758146f42A73DC850FF95C71": "agree",
+      "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3": "agree",
+      "0xE6BD8050758CB15fC88387223E31Ae2708B119dC": "agree",
+      "0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8": "idle"
+    },
+    "leader_receipt": [
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "leader",
+        "vote": null,
+        "calldata": {
+          "readable": "{\"args\":[\"https://raw.githubusercontent.com/mahdidaawsh-commits/route-window/1572d8bb0e69cec849c38ab3980b4f3fe5eca707/bulletins/003-red-advisory.md\",\"50ba051efa520354b1beacf2a4d8898cd517843dc731d1f07e408bf8e5cbc1ac\",]\"method\":\"ingest_bulletin\"}"
+        },
+        "eq_outputs": {
+          "0": {
+            "status": "return",
+            "payload": {
+              "readable": "{\"report\":{\"action\":\"NONE\"\"end_hour\":0\"quote\":\"\"\"routes\":[]\"start_hour\":0}\"source_sha256\":\"50ba051efa520354b1beacf2a4d8898cd517843dc731d1f07e408bf8e5cbc1ac\"}"
+            }
+          }
+        },
+        "result": {
+          "status": "return",
+          "payload": {
+            "readable": "null"
+          }
+        }
+      },
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree",
+        "calldata": {
+          "readable": "{\"args\":[\"https://raw.githubusercontent.com/mahdidaawsh-commits/route-window/1572d8bb0e69cec849c38ab3980b4f3fe5eca707/bulletins/003-red-advisory.md\",\"50ba051efa520354b1beacf2a4d8898cd517843dc731d1f07e408bf8e5cbc1ac\",]\"method\":\"ingest_bulletin\"}"
+        },
+        "result": {
+          "status": "return",
+          "payload": {
+            "readable": "null"
+          }
+        }
+      }
+    ],
+    "validators": [
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      },
+      {
+        "execution_result": "ERROR",
+        "genvm_result": {
+          "stderr": "Validator execution cancelled after quorum",
+          "stdout": "",
+          "raw_error": {
+            "fatal": false,
+            "causes": [
+              "VALIDATOR_QUORUM_REACHED"
+            ]
+          },
+          "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+        },
+        "mode": "validator",
+        "vote": "idle"
+      },
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      },
+      {
+        "execution_result": "ERROR",
+        "genvm_result": {
+          "stderr": "Validator execution cancelled after quorum",
+          "stdout": "",
+          "raw_error": {
+            "fatal": false,
+            "causes": [
+              "VALIDATOR_QUORUM_REACHED"
+            ]
+          },
+          "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+        },
+        "mode": "validator",
+        "vote": "idle"
+      }
+    ]
+  },
+  "gaslimit": 15,
+  "nonce": 15,
+  "created_at": "2026-10-03T06:23:53.090712+00:00",
+  "leader_only": false,
+  "execution_mode": "NORMAL",
+  "origin_address": "0xa480D675647347f0C7745272263a612b8Ce9C120",
+  "triggered_on": null,
+  "appeal_validators_timeout": false,
+  "sim_config": {
+    "signed_rollup_transaction": "0xf902290f808307a12094b7278a61aa25c888815afc32ad3cc52ff24fe57580b901c427241a99000000000000000000000000a480d675647347f0c7745272263a612b8ce9c12000000000000000000000000084790519a1e35285a95b43ffd26ffe77dbf63cf90000000000000000000000000000000000000000000000000000000000000005000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000f0f8eeb8eb16046172677315cc0868747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6d616864696461617773682d636f6d6d6974732f726f7574652d77696e646f772f313537326438626230653639636563383439633338616233393830623466336665356563613730372f62756c6c6574696e732f3030332d7265642d61647669736f72792e6d64840435306261303531656661353230333534623162656163663261346438383938636435313738343364633733316431663037653430386266386535636263316163066d6574686f647c696e676573745f62756c6c6574696e00000000000000000000000000000000008301e481a03edee7de4f2a83e1ba1291a35d3a82c7a6136359c3e127a4162cef5bdba71bb4a05f79944e47b6114cfa8c02c9f589d26f534f59042f295554111cf91bd1d42c38"
+  },
+  "value_credited": false,
+  "sender": "0xa480D675647347f0C7745272263a612b8Ce9C120",
+  "recipient": "0x84790519a1E35285A95B43FfD26Ffe77dBF63cf9",
+  "tx_id": "0x7d7ea88d8355702d7839c0349b26bd15542f86c74c0c018176736db491781135",
+  "activator": "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+  "last_leader": "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+  "result_name": "MAJORITY_AGREE",
+  "num_of_rounds": "1",
+  "last_round": {
+    "round": "0",
+    "leader_index": "0",
+    "votes_committed": "5",
+    "votes_revealed": "5",
+    "appeal_bond": "0",
+    "rotations_left": "3",
+    "result": 6,
+    "round_validators": [
+      "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+      "0xE6BD8050758CB15fC88387223E31Ae2708B119dC",
+      "0x36728d2a123aB444E603EE5b2ad17d18Bb193557",
+      "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+      "0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8"
+    ],
+    "validator_votes_hash": [
+      "0x44fbecd029e1fc5ca26091b2d3f42e238403625ce869b50bae6fb01bb2b054db",
+      "0xe0632b7137bd35f5778ca27196f44d63fc1c197a875893f502bf122326e4aadf",
+      "0x2ae72c83a161f127be03c0f89c3926524625e3567d84c58f413b9d0e48dc51f8",
+      "0xea35e59c4f2a6c1f608d82db4f1d8b5e03ac935e0288d1a954ef304810a35c2c",
+      "0x82abc419e9813402ada0dcb599e701710088dd043327bb9334f7f096ff5c586e"
+    ],
+    "validator_votes": [
+      1,
+      1,
+      5,
+      1,
+      5
+    ],
+    "validator_votes_name": [
+      "AGREE",
+      "AGREE",
+      "IDLE",
+      "AGREE",
+      "IDLE"
+    ]
+  },
+  "type": 2,
+  "status_name": "FINALIZED"
+}

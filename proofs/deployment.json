@@ -1,0 +1,31 @@
+{
+  "network": "studionet",
+  "chain_id": 61999,
+  "contract_address": "0x84790519a1E35285A95B43FfD26Ffe77dBF63cf9",
+  "source_sha256": "71c42b2428f517c9c2c276bcb18785587a313601fae89c07bd903ebb579ae71a",
+  "exact_source_match": true,
+  "source_revision": "1572d8bb0e69cec849c38ab3980b4f3fe5eca707",
+  "deployment_transaction": "0x3acf41bc9ffa6907f673474e273a9b14e2671ebb5fd05c1897ec134cbe0acbe3",
+  "bulletin_sources": [
+    {
+      "file": "001-blue-suspension.md",
+      "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/route-window/1572d8bb0e69cec849c38ab3980b4f3fe5eca707/bulletins/001-blue-suspension.md",
+      "sha256": "4439dbfb839ad0abbdacda6df78e37c4a58ca9ce0bd433dd977a513a9b367e1e"
+    },
+    {
+      "file": "002-blue-restoration.md",
+      "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/route-window/1572d8bb0e69cec849c38ab3980b4f3fe5eca707/bulletins/002-blue-restoration.md",
+      "sha256": "744cfff176414c90d438c541a0c43324abda845cf28e6bc3e9c51b61c532e464"
+    },
+    {
+      "file": "003-red-advisory.md",
+      "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/route-window/1572d8bb0e69cec849c38ab3980b4f3fe5eca707/bulletins/003-red-advisory.md",
+      "sha256": "50ba051efa520354b1beacf2a4d8898cd517843dc731d1f07e408bf8e5cbc1ac"
+    },
+    {
+      "file": "004-red-suspension.md",
+      "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/route-window/1572d8bb0e69cec849c38ab3980b4f3fe5eca707/bulletins/004-red-suspension.md",
+      "sha256": "6f60ce8fba3e941cd8d9402cf7b225ade5fba83664a8d42fab7cc415d60aadac"
+    }
+  ]
+}

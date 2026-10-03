@@ -1,0 +1,185 @@
+{
+  "hash": "0xa80ae654016ac30498def65ceec97746634653357a2fb733509e437a00ee8f48",
+  "from_address": "0xa480D675647347f0C7745272263a612b8Ce9C120",
+  "to_address": "0x84790519a1E35285A95B43FfD26Ffe77dBF63cf9",
+  "data": {
+    "calldata": {
+      "readable": "{\"args\":[\"https://raw.githubusercontent.com/mahdidaawsh-commits/route-window/1572d8bb0e69cec849c38ab3980b4f3fe5eca707/bulletins/002-blue-restoration.md\",\"744cfff176414c90d438c541a0c43324abda845cf28e6bc3e9c51b61c532e464\",]\"method\":\"ingest_bulletin\"}"
+    }
+  },
+  "status": 7,
+  "result": 6,
+  "consensus_data": {
+    "votes": {
+      "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100": "agree",
+      "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47": "agree",
+      "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3": "idle",
+      "0x90402341F0B0e97b23023c0a87de957FB7148E0F": "agree",
+      "0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8": "disagree"
+    },
+    "leader_receipt": [
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "leader",
+        "vote": null,
+        "calldata": {
+          "readable": "{\"args\":[\"https://raw.githubusercontent.com/mahdidaawsh-commits/route-window/1572d8bb0e69cec849c38ab3980b4f3fe5eca707/bulletins/002-blue-restoration.md\",\"744cfff176414c90d438c541a0c43324abda845cf28e6bc3e9c51b61c532e464\",]\"method\":\"ingest_bulletin\"}"
+        },
+        "eq_outputs": {
+          "0": {
+            "status": "return",
+            "payload": {
+              "readable": "{\"report\":{\"action\":\"RESTORE\"\"end_hour\":11\"quote\":\"On 3 October 2026, normal Blue Line train service resumes from 10:00 UTC until 11:00 UTC. The previously announced Blue Line suspension remains in force before 10:00 UTC and after 11:00 UTC until noon.\"\"routes\":[\"Blue\",]\"start_hour\":10}\"source_sha256\":\"744cfff176414c90d438c541a0c43324abda845cf28e6bc3e9c51b61c532e464\"}"
+            }
+          }
+        },
+        "result": {
+          "status": "return",
+          "payload": {
+            "readable": "null"
+          }
+        }
+      },
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree",
+        "calldata": {
+          "readable": "{\"args\":[\"https://raw.githubusercontent.com/mahdidaawsh-commits/route-window/1572d8bb0e69cec849c38ab3980b4f3fe5eca707/bulletins/002-blue-restoration.md\",\"744cfff176414c90d438c541a0c43324abda845cf28e6bc3e9c51b61c532e464\",]\"method\":\"ingest_bulletin\"}"
+        },
+        "result": {
+          "status": "return",
+          "payload": {
+            "readable": "null"
+          }
+        }
+      }
+    ],
+    "validators": [
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "disagree"
+      },
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      },
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      },
+      {
+        "execution_result": "ERROR",
+        "genvm_result": {
+          "stderr": "Validator execution cancelled after quorum",
+          "stdout": "",
+          "raw_error": {
+            "fatal": false,
+            "causes": [
+              "VALIDATOR_QUORUM_REACHED"
+            ]
+          },
+          "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+        },
+        "mode": "validator",
+        "vote": "idle"
+      }
+    ]
+  },
+  "gaslimit": 14,
+  "nonce": 14,
+  "created_at": "2026-10-03T06:22:27.074251+00:00",
+  "leader_only": false,
+  "execution_mode": "NORMAL",
+  "origin_address": "0xa480D675647347f0C7745272263a612b8Ce9C120",
+  "triggered_on": null,
+  "appeal_validators_timeout": false,
+  "sim_config": {
+    "signed_rollup_transaction": "0xf902290e808307a12094b7278a61aa25c888815afc32ad3cc52ff24fe57580b901c427241a99000000000000000000000000a480d675647347f0c7745272263a612b8ce9c12000000000000000000000000084790519a1e35285a95b43ffd26ffe77dbf63cf90000000000000000000000000000000000000000000000000000000000000005000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000f4f8f2b8ef16046172677315ec0868747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6d616864696461617773682d636f6d6d6974732f726f7574652d77696e646f772f313537326438626230653639636563383439633338616233393830623466336665356563613730372f62756c6c6574696e732f3030322d626c75652d726573746f726174696f6e2e6d64840437343463666666313736343134633930643433386335343161306334333332346162646138343563663238653662633365396335316236316335333265343634066d6574686f647c696e676573745f62756c6c6574696e000000000000000000000000008301e482a0f6f05273a500cae9c184cf5102580c82fed897c37dcf4f5985918338ece19275a049ebeee22306c824bd9bd8ce3c49861880ef84681c91d8261d4fc70dfa8a09ad"
+  },
+  "value_credited": false,
+  "sender": "0xa480D675647347f0C7745272263a612b8Ce9C120",
+  "recipient": "0x84790519a1E35285A95B43FfD26Ffe77dBF63cf9",
+  "tx_id": "0xa80ae654016ac30498def65ceec97746634653357a2fb733509e437a00ee8f48",
+  "activator": "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb",
+  "last_leader": "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb",
+  "result_name": "MAJORITY_AGREE",
+  "num_of_rounds": "1",
+  "last_round": {
+    "round": "0",
+    "leader_index": "0",
+    "votes_committed": "5",
+    "votes_revealed": "5",
+    "appeal_bond": "0",
+    "rotations_left": "3",
+    "result": 6,
+    "round_validators": [
+      "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100",
+      "0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8",
+      "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47",
+      "0x90402341F0B0e97b23023c0a87de957FB7148E0F",
+      "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3"
+    ],
+    "validator_votes_hash": [
+      "0x16a5d68e45747a3d3c00f61b1b1e7add1615c2f95e3e86d3e77a7a1b2d47a896",
+      "0x1628c5d319f72a96d4d3b221e334ea160db3ed40f22f0007b10bf78d820de4c7",
+      "0xdd8009248eee5d5f76facd5082bfe4f35d0c7e01d97d6013d7c2333487fc01f4",
+      "0x0a948d0bb3bd11258ade8fc135fcc3afa3cb9a232a57954414029fc94aa8464d",
+      "0xb12e744d0bc54d82b03069667cdca2b42dc0f395f8ca62aa669d0c1a451f9764"
+    ],
+    "validator_votes": [
+      1,
+      2,
+      1,
+      1,
+      5
+    ],
+    "validator_votes_name": [
+      "AGREE",
+      "DISAGREE",
+      "AGREE",
+      "AGREE",
+      "IDLE"
+    ]
+  },
+  "type": 2,
+  "status_name": "FINALIZED"
+}

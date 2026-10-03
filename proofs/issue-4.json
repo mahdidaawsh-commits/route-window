@@ -1,0 +1,63 @@
+{
+  "network": "studionet",
+  "chain_id": 61999,
+  "contract_address": "0x84790519a1E35285A95B43FfD26Ffe77dBF63cf9",
+  "source_sha256": "71c42b2428f517c9c2c276bcb18785587a313601fae89c07bd903ebb579ae71a",
+  "source": {
+    "file": "004-red-suspension.md",
+    "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/route-window/1572d8bb0e69cec849c38ab3980b4f3fe5eca707/bulletins/004-red-suspension.md",
+    "sha256": "6f60ce8fba3e941cd8d9402cf7b225ade5fba83664a8d42fab7cc415d60aadac"
+  },
+  "transactions": [
+    {
+      "action": "deploy",
+      "hash": "0x3acf41bc9ffa6907f673474e273a9b14e2671ebb5fd05c1897ec134cbe0acbe3"
+    },
+    {
+      "action": "ingest_bulletin",
+      "hash": "0x2edec5e455b6a0bc0a0613d3ffd397061ea9f2ba61e937c835bdcd51f1e0c20f"
+    }
+  ],
+  "schedule": {
+    "bulletin_count": 4,
+    "closed_intervals": {
+      "Blue": [
+        [
+          8,
+          10
+        ],
+        [
+          11,
+          12
+        ]
+      ],
+      "Red": [
+        [
+          9,
+          11
+        ]
+      ]
+    },
+    "horizon_hours": 48,
+    "origin_utc": "2026-10-03T00:00:00Z",
+    "routes": [
+      "Blue",
+      "Red"
+    ]
+  },
+  "bulletin": {
+    "issue": 4,
+    "report": {
+      "action": "CLOSE",
+      "end_hour": 11,
+      "quote": "On 3 October 2026, regular Red Line trains will not operate from 09:00 UTC until 11:00 UTC because of track maintenance.",
+      "routes": [
+        "Red"
+      ],
+      "start_hour": 9
+    },
+    "schedule_sha256": "ba325ecfb99ec443d682b7024169f70439bdf8fd6ce83760fea924d3381a41c1",
+    "sha256": "6f60ce8fba3e941cd8d9402cf7b225ade5fba83664a8d42fab7cc415d60aadac",
+    "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/route-window/1572d8bb0e69cec849c38ab3980b4f3fe5eca707/bulletins/004-red-suspension.md"
+  }
+}
