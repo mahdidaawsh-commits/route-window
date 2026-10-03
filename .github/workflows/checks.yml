@@ -1,0 +1,14 @@
+name: Contract checks
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - run: genvm-lint download --version v0.2.16
+      - run: genvm-lint check contracts/route_window.py --json
+      - run: pytest tests/direct/ -q

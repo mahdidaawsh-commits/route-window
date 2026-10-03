@@ -1,0 +1,1 @@
+Operations notice 003. On 3 October 2026, Red Line trains remain in normal service between 09:00 UTC and 11:00 UTC, although passengers may experience delays of up to ten minutes. No trains are suspended and no previous suspension is restored by this notice.

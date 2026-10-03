@@ -1,0 +1,1 @@
+Operations notice 001. On 3 October 2026, regular Blue Line trains will not operate from 08:00 UTC until 12:00 UTC. Replacement buses are planned, but regular Blue Line rail service is suspended throughout that window. Red Line trains are unaffected.

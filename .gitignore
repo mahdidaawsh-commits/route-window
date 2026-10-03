@@ -1,0 +1,9 @@
+.venv/
+node_modules/
+artifacts/
+.pytest_cache/
+__pycache__/
+.gltest_cache/
+.proof-journal/
+.secrets/
+*.pyc

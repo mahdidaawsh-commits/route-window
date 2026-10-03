@@ -1,0 +1,1 @@
+Operations notice 002. On 3 October 2026, normal Blue Line train service resumes from 10:00 UTC until 11:00 UTC. The previously announced Blue Line suspension remains in force before 10:00 UTC and after 11:00 UTC until noon. Red Line service is unaffected.
